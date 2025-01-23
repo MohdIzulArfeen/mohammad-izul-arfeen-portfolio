@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stule.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type ="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head">IZUL</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+    <section id="home" class="home">
+     <img src="mypic.jpg" alt="" width="450px" height="400px">
+     <div class="description">
+        <h1>Hello I'm <br><span>Mohammad Izul Arfeen</span><br></h1>
+            <h2>I'm a <span>Web Developer....</span></h2>
+            <p>I am a B.Tech graduate in Computer Science and Engineering with a strong foundation in both theoretical and practical aspects of technology.</p>
+            <div class="font">
+             <a href="https://www.instagram.com/izul.arfeen?igsh=NmE5dDJrazkzazgz"> <i class="fa-brands fa-instagram"></i></a>
+              <i class="fa-brands fa-facebook-f"></i>
+              <a href="https://www.linkedin.com/in/mohammad-izul-arfeen"><i class="fa-brands fa-linkedin-in"></i></a>
+             <a href="+918009475793"> <i class="fas fa-phone"></i></a>
+            </div>
+               <a href="cv.pdf.pdf" download=""><button>DOWNLOAD CV </button></a> 
+     </div>
+    </section>
+    <section id="about" class="about">
+     <div class="about_section">
+        <h1>About <span>Me</span></h1>
+        <h2>Web <span>Developer</span></h2>
+        <p>I am a B.Tech graduate in Computer Science and Engineering with a strong foundation 
+            in both theoretical and practical aspects of technology. My academic journey has provided 
+            me with in-depth knowledge of programming languages, data structures, algorithms, and software
+             development practices. 
+            <p class="mybox1" id="mybox1id">I am passionate about solving complex problems through innovative solutions
+                and have a keen interest in areas such as machine learning, artificial intelligence, and web development.
+                Beyond my technical skills, I enjoy collaborating with teams to bring ideas to life and thrive in dynamic environments where continuous learning and growth are encouraged.
+                 I am always eager to take on new challenges and further develop my expertise in the ever-evolving field of technology.
+            </p>
+
+        </p>
+       <button class="about_btn" id="mybuttonid" onclick="changeReadMore()">Read Less</button> 
+    </div>
+     <div class="about_photo">
+        <img src="mypic.jpg" alt="" width="390px" height="400px">
+     </div>
+    </section>
+    <section id="service" class="service">
+        <h1 class="service_section">My<span>Services</span></h1>
+        <div class="card">
+        <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>Data Scientist</h2>
+            <p>Our data science services help businesses leverage the power of data to drive growth and innovation. Specializing in data analysis, predictive modeling, machine learning, and data visualization, we deliver actionable insights that empower organizations to make informed decisions. Whether you’re a startup, SME, or large enterprise, we tailor our solutions to meet your specific needs, ensuring optimized processes, enhanced efficiency, and a competitive edge. With a focus on accuracy, reliability, and results, our team uses the latest tools and techniques to transform your data into a strategic asset for success.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>UI/UX Design</h2>
+            <p>We specialize in creating user-centric UI/UX designs that elevate yo
+                ur digital products. Our team combines creativity with functionality
+                 to craft intuitive, engaging, and responsive interfaces that ensure seamless
+                  user experiences across devices. From research and prototyping to testing and 
+                  implementation, we guide you through every step of the design process. Whether you
+                  're building a website, mobile app, or enterprise solution, our tailored UI/UX services
+                   help you enhance user satisfaction, boost engagement, and improve conversions. With a focus
+                    on simplicity and innovation, we transform ideas into visually appealing, highly usable digital 
+                    solutions that align with your business goals.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="service_card">
+            <i class="fas fa-computer"></i>
+            <h2>WEB Developer</h2>
+            <p>I offer professional web development services tailored to your business needs. From building responsive websites to creating robust e-commerce platforms, I focus on delivering high-quality, user-friendly solutions. My expertise includes front-end and back-end development, ensuring seamless functionality across all devices. Whether you're starting a new project or upgrading an existing one, I provide customized strategies to enhance your online presence and drive engagement. Let me help you bring your vision to life with modern, efficient, and scalable web solutions that set you apart in today's digital world.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    </section>
+    <section id="portfolio">
+        <h1 class="port_section">My <span>Work</span></h1>
+        <div class="project">
+            <div class="port_card">
+                <img src="webpic.jpg" alt="" width="350px" height="350px">
+                <div class="content">
+                    <a href="https://github.com/MohdIzulArfeen/mohammad-izul-arfeen-portfolio">  <h1>Web Development</h1></a> 
+                    <p>This web development project involves creating an interactive portfolio website using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="frpic.jpg" alt="" width="350px" height="350px">
+                <div class="content">
+                   <a href="https://github.com/MohdIzulArfeen/stone-paper-scissors-game-using-html-css-js" ><h1>Data Science</h1></a>
+                    <p>The project focuses on predicting crop yield using machine learning techniques. By analyzing weather data, soil conditions, and crop growth patterns, the model forecasts future yields, helping farmers improve agricultural productivity.</p>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="uipic.jpg" alt="" width="350px" height="350px">
+                <div class="content">
+                  <a href="https://github.com/MohdIzulArfeen/UI-of-a-website-only-using-html-and-css" ><h1>UI/UX Design</h1></a> 
+                    <p>Project involves designing intuitive and user-friendly interface using Figma.It focuses on creating prototypes, and high-fidelity designs, ensuring seamless user experience and interactive a web or mobile application.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" >
+        <div class="form">
+            <h1>Contact <span> Me</span></h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f21e0a9b-164c-4e28-b194-d69efffe129d">
+                <input type="text" name="name" placeholder="Enter Your Name" required=""><br>
+                <input type="email" name="email" placeholder="Enter Your Email" required=""><br>
+                <input type="number" name="mno" placeholder="Enter Your Phone Number" required=""><br>
+              <textarea name="msg" id="msg" rows="6" cols="20" placeholder="Enter Your Message"></textarea><br>
+             <button class="form_btn">Submit</button>
+            </form>
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <p><i class="fa-solid fa-copyright"></i>Mohammad Izul Arfeen || All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
